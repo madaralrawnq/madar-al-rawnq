@@ -1,0 +1,1 @@
+Madar Al Rawnq — Bilingual Static Launch Kit\nGenerated: 2025-10-30T04:41:11.093095\nContact form posts to: madaralrawnq@gmail.com via FormSubmit.

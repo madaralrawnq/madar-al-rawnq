@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>من نحن • About Us</title><link rel="stylesheet" href="style.css"></head>
+<body>
+  <header class="header container"><div class="logo"><img src="assets/logo-visual.svg" alt="logo"></div><nav class="nav">
+    <a href="index.html" data-en="Home" data-ar="الرئيسية">الرئيسية</a>
+    <a href="about.html" data-en="About" data-ar="من نحن">من نحن</a>
+    <a href="services.html" data-en="Services" data-ar="خدماتنا">خدماتنا</a>
+    <a href="portfolio.html" data-en="Portfolio" data-ar="معرض الأعمال">معرض الأعمال</a>
+    <a href="blog.html" data-en="Blog" data-ar="المدونة">المدونة</a>
+    <a href="store.html" data-en="Store" data-ar="المتجر">المتجر</a>
+    <a href="contact.html" data-en="Contact" data-ar="تواصل">تواصل</a>
+    <div class="lang-switch"><button onclick="setLang('ar')">ع</button><button onclick="setLang('en')">EN</button></div>
+  </nav></header>
+  <main>
+    <section class="hero container">
+      <div><h1 data-ar="من نحن" data-en="About Us">من نحن</h1>
+      <p data-ar="مدار الرونق — وكالة تسويق فني وإبداعي تجمع بين الذوق والفكر." data-en="Madar Al Rawnq — a creative marketing agency blending taste with strategy.">مدار الرونق — وكالة تسويق فني وإبداعي تجمع بين الذوق والفكر.</p>
+      <div style="margin-top:18px"><a class="btn" href="services.html" data-ar="اكتشف خدماتنا" data-en="Discover Services">اكتشف خدماتنا</a><a class="btn" href="contact.html" data-ar="تواصل معنا" data-en="Contact Us">تواصل معنا</a></div></div>
+    </section>
+    
+  </main>
+  <footer class="footer">© 2025 Madar Al Rawnq — مدار الرونق • <span data-ar="فنّ التسويق بالفخامة" data-en="The Art of Luxury Marketing">فنّ التسويق بالفخامة</span></footer>
+<script>
+function setLang(lang){ document.documentElement.lang = lang==='ar' ? 'ar' : 'en'; document.documentElement.dir = lang==='ar' ? 'rtl' : 'ltr'; document.querySelectorAll('[data-ar]').forEach(el=>{ el.textContent = lang==='ar' ? el.getAttribute('data-ar') : el.getAttribute('data-en'); }); if(lang==='en'){ document.body.style.fontFamily='Poppins, Arial, sans-serif'; } else { document.body.style.fontFamily='Tajawal, Arial, sans-serif'; } }
+window.addEventListener('DOMContentLoaded', ()=>{ setLang('ar'); });
+</script>
+</body></html>
