@@ -1,1 +1,3 @@
-Madar Al Rawnq — Bilingual Static Launch Kit\nGenerated: 2025-10-30T04:41:11.093095\nContact form posts to: madaralrawnq@gmail.com via FormSubmit.
+Madar Al Rawnq — Enhanced multi-page bilingual site (dark/light mix)
+Logo: assets/logo_transparent.svg
+Contact form posts to: madaralrawnq@gmail.com via FormSubmit.
